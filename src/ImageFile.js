@@ -26,7 +26,7 @@ export class ImageUpload extends Component {
         let {imagePreviewUrl} = this.state;
         let $imagePreview = null;
         if (imagePreviewUrl) {
-            $imagePreview = (<img width="100%" src={imagePreviewUrl}/>);
+            $imagePreview = (<img width="100%" src={imagePreviewUrl} alt={"who knows"}/>);
         } else {
             $imagePreview = (<div className="previewText">Please select an Image for Preview</div>);
         }

@@ -4,6 +4,7 @@ import './App.css';
 import {SliderInternal} from './Slider.js';
 import {ASwitch} from "./Switch.js";
 import {ImageUpload} from './ImageFile.js';
+import WasmLoader from './WasmLoader.js'
 
 class App extends Component {
     render() {
@@ -72,11 +73,33 @@ class App extends Component {
                     </div>
 
                     <div className="left-div">
+                        <WasmButton/>
                         <ImageUpload/>
                     </div>
 
                 </div>
             </div>
+        );
+    }
+}
+
+class WasmButton extends React.Component {
+    static async handleClick() {
+        try {
+            let wasmLoadewr = new WasmLoader();
+            wasmLoadewr.loadNativeModule().then(({nativeModule}) => nativeModule.autotraceRun());
+        }
+        catch (e) {
+            console.error(e.message);
+        }
+    }
+
+    render() {
+        // This syntax ensures `this` is bound within handleClick
+        return (
+            <button onClick={(e) => WasmButton.handleClick(e)}>
+                Click me
+            </button>
         );
     }
 }
