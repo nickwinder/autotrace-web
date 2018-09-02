@@ -77,3 +77,8 @@
     text-align: center;
     width: 500px;
 }
+
+svg {
+    width: 100%;
+    height: auto;
+}

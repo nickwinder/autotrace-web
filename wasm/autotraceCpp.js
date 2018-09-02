@@ -40,6 +40,8 @@ var Module = (function () {
                         var fileData0 = [];
                         fileData0.push.apply(fileData0, [137, 80, 78, 71, 13, 10, 26, 10, 0, 0, 0, 13, 73, 72, 68, 82, 0, 0, 1, 44, 0, 0, 1, 44, 8, 6, 0, 0, 0, 121, 125, 142, 117, 0, 0, 0, 1, 115, 82, 71, 66, 0, 174, 206, 28, 233, 0, 0, 0, 6, 98, 75, 71, 68, 0, 255, 0, 255, 0, 255, 160, 189, 167, 147, 0, 0, 0, 9, 112, 72, 89, 115, 0, 0, 11, 19, 0, 0, 11, 19, 1, 0, 154, 156, 24, 0, 0, 0, 7, 116, 73, 77, 69, 7, 217, 7, 24, 11, 6, 10, 100, 178, 229, 94, 0, 0, 0, 25, 116, 69, 88, 116, 67, 111, 109, 109, 101, 110, 116, 0, 67, 114, 101, 97, 116, 101, 100, 32, 119, 105, 116, 104, 32, 71, 73, 77, 80, 87, 129, 14, 23, 0, 0, 11, 137, 73, 68, 65, 84, 120, 218, 237, 221, 127, 172, 213, 245, 125, 199, 241, 215, 247, 254, 224, 114, 225, 106, 229, 214, 171, 8, 8, 148, 31, 14, 165, 13, 73, 107, 152, 109, 108, 141, 49, 154, 162, 93, 51, 233, 164, 4, 233, 26, 238, 68, 146, 153, 184, 170, 180, 91, 117, 157, 193, 117, 46, 20, 221, 22, 90, 155, 168, 27, 182, 105, 70, 21, 197, 182, 164, 173, 45, 48, 7, 104, 93, 103, 176, 232, 136, 149, 10, 200, 80, 160, 42, 20, 41, 162, 151, 95, 247, 158, 253, 113, 73, 58, 157, 43, 10, 247, 199, 249, 222, 243, 120, 36, 252, 71, 46, 231, 190, 223, 95, 158, 231, 115, 46, 95, 206, 41, 42, 149, 74, 0, 202, 160, 206, 8, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 222, 174, 161, 167, 190, 208, 166, 150, 22, 31, 112, 120, 204, 164, 3, 7, 10, 83, 0, 39, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 128, 129, 165, 161, 154, 31, 220, 236, 172, 47, 231, 84, 91, 54, 121, 51, 67, 250, 204, 250, 3, 147, 106, 230, 13, 35, 157, 176, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 128, 94, 215, 96, 4, 244, 149, 162, 168, 100, 112, 243, 161, 12, 59, 253, 181, 12, 31, 241, 106, 70, 140, 222, 149, 81, 99, 119, 101, 196, 232, 93, 25, 62, 242, 149, 156, 126, 198, 111, 114, 90, 235, 254, 52, 15, 237, 72, 125, 125, 103, 58, 59, 235, 211, 241, 70, 115, 246, 237, 61, 53, 123, 94, 125, 127, 94, 222, 121, 102, 118, 189, 56, 34, 59, 254, 123, 68, 118, 189, 56, 34, 47, 239, 58, 35, 175, 237, 25, 150, 131, 29, 77, 169, 84, 10, 3, 22, 44, 56, 113, 205, 67, 14, 102, 204, 248, 23, 51, 101, 234, 198, 124, 252, 210, 39, 114, 193, 69, 79, 190, 183, 227, 127, 93, 87, 26, 79, 59, 146, 83, 79, 219, 159, 209, 227, 118, 252, 222, 223, 251, 243, 181, 83, 243, 216, 170, 143, 229, 153, 39, 63, 148, 237, 91, 71, 167, 227, 205, 193, 22, 48, 16, 159, 244, 42, 149, 74, 143, 124, 161, 77, 45, 45, 149, 158, 126, 112, 179, 179, 222, 134, 202, 244, 243, 133, 250, 174, 140, 25, 247, 82, 62, 126, 233, 19, 185, 106, 206, 195, 57, 107, 212, 203, 253, 246, 88, 126, 189, 99, 120, 30, 188, 111, 122, 30, 91, 245, 177, 108, 127, 225, 236, 116, 117, 14, 220, 159, 126, 172, 63, 48, 169, 102, 142, 151, 130, 197, 201, 69, 170, 174, 43, 19, 206, 125, 33, 159, 158, 249, 163, 204, 188, 230, 161, 170, 125, 156, 247, 255, 243, 159, 100, 197, 253, 87, 100, 203, 115, 227, 210, 213, 53, 176, 226, 37, 88, 130, 197, 113, 180, 182, 237, 205, 229, 159, 89, 153, 47, 220, 122, 87, 233, 30, 251, 63, 45, 184, 46, 63, 94, 126, 89, 246, 238, 110, 21, 44, 193, 18, 172, 129, 236, 156, 201, 91, 50, 111, 254, 191, 228, 162, 79, 62, 94, 250, 239, 101, 237, 79, 46, 204, 221, 119, 252, 89, 158, 127, 118, 130, 96, 9, 150, 96, 13, 36, 31, 250, 200, 179, 249, 235, 59, 190, 150, 241, 147, 94, 24, 112, 223, 219, 214, 77, 227, 242, 213, 249, 95, 202, 198, 167, 38, 11, 150, 96, 9, 86, 185, 79, 84, 155, 179, 96, 241, 223, 101, 226, 121, 91, 7, 252, 247, 186, 249, 151, 227, 115, 235, 245, 183, 228, 249, 103, 39, 10, 86, 149, 114, 227, 40, 239, 168, 109, 248, 158, 44, 188, 247, 43, 89, 186, 186, 189, 38, 98, 149, 36, 19, 207, 219, 154, 165, 171, 219, 179, 240, 222, 175, 164, 109, 248, 30, 23, 129, 96, 81, 237, 234, 27, 58, 51, 163, 125, 121, 30, 217, 112, 101, 46, 249, 212, 154, 154, 156, 193, 37, 159, 90, 147, 71, 54, 92, 153, 25, 237, 203, 83, 223, 208, 233, 162, 240, 146, 208, 75, 194, 106, 244, 129, 137, 219, 115, 247, 242, 235, 211, 218, 182, 215, 48, 142, 217, 187, 187, 53, 243, 62, 179, 56, 219, 54, 143, 241, 146, 208, 9, 139, 170, 120, 214, 42, 42, 153, 209, 190, 60, 15, 174, 155, 45, 86, 111, 211, 218, 182, 55, 15, 174, 155, 157, 25, 237, 203, 83, 20, 21, 3, 113, 194, 114, 194, 234, 79, 167, 158, 182, 63, 119, 220, 119, 115, 62, 124, 193, 51, 134, 113, 28, 191, 248, 249, 148, 204, 159, 115, 123, 246, 239, 59, 213, 9, 203, 9, 139, 190, 118, 206, 228, 45, 121, 244, 185, 43, 196, 234, 93, 250, 240, 5, 207, 228, 209, 231, 174, 200, 57, 147, 183, 24, 134, 96, 209, 151, 46, 158, 182, 46, 75, 87, 207, 49, 136, 19, 176, 116, 245, 156, 92, 60, 109, 157, 65, 8, 22, 125, 97, 214, 220, 101, 89, 180, 228, 22, 131, 56, 9, 139, 150, 220, 146, 89, 115, 151, 25, 132, 96, 209, 155, 174, 251, 242, 61, 185, 241, 182, 175, 27, 68, 15, 184, 241, 182, 175, 231, 186, 47, 223, 99, 16, 125, 200, 251, 97, 213, 136, 162, 168, 228, 166, 219, 22, 87, 245, 59, 42, 148, 209, 156, 235, 191, 147, 230, 33, 29, 185, 243, 111, 174, 247, 38, 130, 78, 88, 244, 148, 27, 22, 124, 67, 172, 122, 201, 204, 107, 30, 202, 13, 11, 190, 97, 16, 130, 69, 79, 184, 246, 166, 251, 252, 188, 165, 151, 205, 154, 187, 44, 215, 222, 116, 159, 65, 8, 22, 39, 99, 250, 236, 21, 185, 118, 254, 18, 131, 232, 139, 39, 134, 249, 75, 50, 125, 246, 10, 131, 16, 44, 78, 196, 212, 79, 172, 207, 205, 139, 22, 25, 68, 31, 186, 121, 209, 162, 76, 253, 132, 27, 158, 5, 139, 247, 100, 212, 216, 157, 249, 230, 3, 55, 24, 68, 63, 248, 230, 3, 55, 100, 212, 216, 157, 6, 209, 11, 170, 250, 191, 230, 148, 213, 164, 3, 7, 250, 249, 159, 139, 14, 38, 175, 79, 168, 36, 135, 44, 163, 223, 52, 37, 167, 108, 41, 18, 159, 222, 227, 132, 197, 113, 122, 245, 151, 98, 213, 239, 14, 29, 219, 3, 130, 197, 255, 239, 232, 202, 74, 142, 44, 53, 135, 106, 112, 100, 105, 247, 62, 16, 44, 222, 65, 101, 239, 181, 233, 184, 218, 28, 170, 73, 199, 213, 221, 123, 65, 176, 248, 63, 47, 5, 239, 54, 4, 123, 17, 44, 170, 95, 231, 127, 86, 114, 244, 251, 230, 80, 149, 47, 211, 191, 223, 189, 31, 4, 139, 36, 57, 154, 188, 57, 221, 24, 170, 217, 155, 211, 187, 247, 132, 96, 213, 188, 35, 15, 87, 146, 195, 230, 80, 213, 14, 31, 219, 19, 39, 195, 125, 88, 189, 160, 111, 239, 195, 58, 152, 188, 126, 182, 217, 151, 197, 41, 47, 185, 55, 203, 9, 171, 150, 79, 87, 203, 196, 202, 190, 156, 176, 156, 176, 202, 112, 194, 58, 156, 188, 62, 210, 220, 75, 119, 202, 218, 89, 36, 131, 204, 193, 9, 171, 198, 184, 41, 209, 222, 4, 139, 210, 56, 120, 147, 25, 216, 155, 96, 81, 2, 93, 191, 170, 164, 226, 67, 79, 75, 169, 178, 183, 123, 127, 8, 86, 205, 56, 236, 77, 249, 236, 79, 176, 40, 199, 213, 158, 28, 113, 193, 151, 218, 145, 37, 113, 239, 156, 96, 213, 134, 206, 103, 188, 156, 176, 71, 193, 162, 44, 207, 206, 15, 152, 129, 61, 10, 22, 101, 208, 149, 28, 249, 182, 49, 12, 136, 96, 125, 187, 123, 159, 8, 214, 192, 237, 213, 78, 47, 35, 236, 83, 176, 40, 203, 5, 238, 19, 89, 236, 83, 176, 40, 139, 163, 63, 49, 3, 251, 20, 44, 74, 226, 200, 195, 102, 96, 159, 130, 69, 9, 84, 222, 48, 3, 123, 21, 44, 202, 114, 97, 191, 234, 7, 180, 246, 42, 88, 148, 68, 215, 118, 51, 176, 87, 193, 162, 44, 207, 196, 91, 205, 192, 94, 5, 139, 178, 60, 19, 187, 176, 237, 85, 176, 40, 205, 133, 189, 205, 12, 236, 85, 176, 40, 203, 133, 189, 211, 12, 236, 85, 176, 40, 137, 202, 110, 51, 176, 87, 193, 162, 44, 23, 246, 126, 51, 176, 87, 193, 162, 44, 124, 114, 176, 189, 10, 22, 165, 209, 96, 4, 246, 42, 88, 148, 68, 113, 170, 25, 216, 171, 96, 81, 150, 11, 187, 205, 12, 236, 85, 176, 40, 203, 182, 70, 154, 129, 189, 10, 22, 101, 217, 214, 7, 204, 192, 94, 5, 139, 178, 108, 107, 188, 25, 216, 171, 96, 81, 18, 133, 11, 219, 94, 5, 139, 210, 108, 107, 140, 25, 216, 171, 96, 81, 150, 103, 226, 51, 10, 67, 176, 87, 193, 162, 36, 23, 246, 80, 51, 176, 87, 193, 162, 68, 26, 167, 155, 129, 125, 10, 22, 37, 209, 240, 73, 51, 176, 79, 193, 162, 44, 27, 59, 223, 12, 236, 83, 176, 40, 203, 198, 70, 250, 1, 173, 125, 10, 22, 37, 90, 89, 227, 231, 141, 97, 32, 104, 252, 188, 191, 130, 130, 85, 11, 23, 250, 103, 205, 192, 30, 5, 139, 146, 168, 159, 226, 101, 132, 61, 10, 22, 101, 49, 40, 105, 108, 55, 134, 82, 159, 174, 218, 187, 247, 136, 96, 213, 70, 179, 4, 203, 254, 4, 139, 210, 108, 238, 15, 138, 20, 173, 230, 80, 70, 69, 107, 247, 254, 16, 172, 154, 50, 248, 78, 51, 176, 55, 193, 162, 36, 26, 46, 243, 44, 109, 111, 181, 53, 186, 90, 248, 38, 63, 183, 184, 185, 111, 255, 192, 37, 109, 149, 190, 250, 163, 174, 28, 151, 220, 252, 17, 23, 114, 185, 78, 87, 126, 216, 238, 132, 85, 163, 126, 188, 221, 12, 74, 165, 113, 134, 211, 149, 96, 213, 174, 67, 157, 201, 173, 79, 154, 67, 57, 78, 87, 119, 37, 25, 108, 14, 130, 85, 219, 126, 250, 98, 114, 164, 203, 28, 170, 219, 160, 164, 113, 186, 211, 149, 96, 209, 89, 73, 254, 124, 173, 57, 84, 181, 33, 15, 199, 39, 60, 11, 22, 199, 60, 189, 39, 89, 245, 146, 57, 84, 165, 134, 63, 78, 234, 255, 208, 233, 74, 176, 248, 223, 22, 254, 194, 12, 170, 210, 224, 133, 243, 12, 65, 176, 120, 155, 223, 30, 78, 110, 124, 220, 28, 170, 74, 243, 191, 38, 69, 235, 61, 6, 33, 88, 188, 131, 199, 126, 157, 172, 216, 102, 14, 85, 161, 113, 150, 155, 68, 5, 139, 227, 249, 218, 134, 228, 112, 167, 57, 244, 175, 166, 100, 240, 66, 177, 18, 44, 142, 231, 80, 103, 242, 217, 149, 230, 208, 175, 134, 62, 30, 247, 92, 9, 22, 239, 210, 142, 3, 201, 117, 235, 204, 161, 95, 12, 121, 40, 169, 27, 235, 116, 37, 88, 188, 23, 79, 190, 146, 220, 254, 148, 57, 244, 169, 193, 119, 38, 245, 23, 137, 149, 96, 113, 34, 190, 247, 66, 114, 207, 179, 230, 208, 39, 154, 190, 148, 52, 254, 169, 88, 9, 22, 39, 227, 222, 95, 38, 223, 221, 108, 14, 189, 106, 208, 188, 100, 208, 23, 197, 74, 176, 232, 9, 255, 248, 116, 114, 191, 104, 245, 82, 172, 230, 38, 77, 127, 43, 86, 130, 69, 79, 169, 36, 185, 243, 233, 228, 91, 155, 204, 162, 103, 99, 245, 133, 164, 233, 246, 34, 209, 43, 193, 162, 199, 221, 181, 49, 249, 135, 167, 205, 161, 71, 52, 125, 53, 105, 186, 69, 169, 4, 139, 222, 244, 221, 205, 201, 23, 159, 48, 135, 147, 210, 252, 173, 100, 208, 60, 177, 18, 44, 250, 194, 154, 157, 201, 172, 85, 230, 112, 66, 134, 174, 73, 26, 174, 16, 43, 193, 162, 47, 109, 222, 151, 92, 242, 131, 100, 195, 110, 179, 120, 87, 234, 63, 154, 180, 60, 127, 105, 234, 38, 139, 149, 96, 209, 31, 246, 31, 78, 230, 173, 73, 22, 109, 48, 139, 223, 171, 233, 239, 147, 33, 63, 40, 82, 12, 91, 109, 24, 130, 69, 63, 170, 36, 89, 182, 37, 153, 241, 211, 100, 239, 65, 243, 120, 139, 162, 45, 25, 250, 179, 100, 208, 53, 254, 37, 80, 176, 168, 38, 219, 246, 39, 151, 255, 208, 105, 235, 45, 167, 170, 150, 255, 42, 82, 119, 142, 82, 9, 22, 213, 168, 179, 210, 125, 218, 186, 252, 135, 201, 191, 237, 168, 209, 33, 52, 252, 81, 210, 178, 241, 216, 169, 202, 251, 176, 11, 22, 85, 111, 119, 71, 242, 87, 255, 145, 92, 189, 42, 217, 252, 219, 90, 249, 219, 112, 94, 50, 244, 223, 147, 230, 37, 69, 138, 225, 78, 85, 130, 69, 217, 60, 191, 47, 153, 181, 50, 105, 127, 52, 217, 58, 80, 195, 85, 119, 110, 50, 228, 145, 100, 232, 218, 34, 117, 31, 20, 42, 193, 162, 236, 54, 254, 38, 153, 185, 178, 251, 222, 173, 181, 187, 6, 202, 75, 191, 105, 221, 247, 84, 13, 93, 87, 164, 254, 124, 161, 42, 195, 202, 140, 128, 247, 98, 243, 190, 100, 254, 207, 146, 214, 193, 201, 229, 163, 147, 191, 152, 82, 194, 111, 162, 105, 65, 210, 120, 213, 83, 41, 218, 206, 183, 209, 114, 41, 42, 149, 74, 143, 124, 161, 77, 45, 45, 149, 106, 253, 38, 63, 183, 184, 217, 166, 123, 235, 136, 94, 36, 227, 223, 151, 124, 122, 108, 50, 115, 98, 21, 63, 208, 65, 115, 147, 198, 171, 147, 186, 115, 11, 47, 44, 4, 75, 176, 72, 93, 145, 140, 57, 37, 185, 240, 172, 228, 170, 9, 201, 89, 67, 250, 243, 193, 156, 157, 52, 182, 39, 13, 151, 37, 117, 227, 139, 164, 222, 130, 188, 36, 132, 223, 233, 170, 116, 223, 203, 181, 109, 127, 242, 157, 95, 37, 205, 13, 221, 1, 155, 242, 254, 228, 194, 17, 201, 5, 103, 246, 230, 149, 124, 113, 82, 127, 89, 82, 63, 53, 169, 155, 80, 164, 24, 98, 33, 130, 5, 239, 94, 199, 209, 100, 211, 107, 221, 191, 30, 216, 210, 125, 159, 248, 224, 134, 100, 88, 83, 114, 230, 144, 100, 228, 208, 223, 253, 154, 54, 238, 163, 73, 229, 149, 164, 242, 90, 82, 121, 35, 201, 209, 238, 203, 179, 24, 154, 20, 195, 146, 226, 204, 164, 110, 84, 82, 140, 78, 234, 198, 38, 117, 99, 146, 98, 100, 82, 156, 94, 164, 104, 142, 187, 208, 5, 11, 122, 84, 229, 88, 196, 58, 142, 38, 187, 222, 120, 235, 127, 186, 158, 246, 193, 21, 138, 195, 241, 95, 233, 27, 1, 32, 88, 0, 130, 5, 8, 22, 128, 96, 1, 8, 22, 32, 88, 0, 130, 5, 32, 88, 128, 96, 1, 8, 22, 128, 96, 1, 130, 5, 32, 88, 0, 130, 5, 8, 22, 128, 96, 1, 8, 22, 32, 88, 0, 130, 5, 32, 88, 128, 96, 1, 8, 22, 128, 96, 1, 130, 5, 32, 88, 0, 130, 5, 8, 22, 128, 96, 1, 130, 5, 32, 88, 0, 130, 5, 8, 22, 128, 96, 1, 8, 22, 32, 88, 0, 130, 5, 32, 88, 128, 96, 1, 8, 22, 128, 96, 1, 130, 5, 32, 88, 0, 130, 5, 8, 22, 64, 255, 105, 232, 169, 47, 52, 233, 192, 129, 162, 106, 191, 203, 37, 109, 21, 171, 6, 39, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 232, 63, 69, 165, 226, 51, 70, 1, 39, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 4, 11, 64, 176, 0, 193, 2, 16, 44, 0, 193, 2, 4, 11, 64, 176, 0, 4, 11, 16, 44, 0, 193, 2, 16, 44, 64, 176, 0, 250, 198, 255, 0, 199, 168, 187, 119, 159, 137, 129, 14, 0, 0, 0, 0, 73, 69, 78, 68, 174, 66, 96, 130]);
                         Module['FS_createDataFile']('/assets', 'Test.png', fileData0, true, true, false);
+                        var fileData1 = [];
+                        Module['FS_createDataFile']('/assets', 'test.svg', fileData1, true, true, false);
 
                     }
 
@@ -54,6 +56,7 @@ var Module = (function () {
                 loadPackage({"files": []});
 
             })();
+
 
 
 // Sometimes an existing Module object exists with properties
@@ -281,6 +284,7 @@ var Module = (function () {
             moduleOverrides = undefined;
 
 
+
 // {{PREAMBLE_ADDITIONS}}
 
             var STACK_ALIGN = 16;
@@ -473,6 +477,7 @@ var Module = (function () {
 // You can also build docs locally as HTML or other formats in site/
 // An online HTML version (which may be of a different version of Emscripten)
 //    is up at http://kripken.github.io/emscripten-site/docs/api_reference/preamble.js.html
+
 
 
 //========================================
@@ -1311,6 +1316,7 @@ var Module = (function () {
                 'JS engine does not provide full typed array support');
 
 
+
 // Use a provided buffer, if there is one, or else allocate a new one
             if (Module['buffer']) {
                 buffer = Module['buffer'];
@@ -1897,15 +1903,11 @@ var Module = (function () {
 
             STATIC_BASE = GLOBAL_BASE;
 
-            STATICTOP = STATIC_BASE + 70272;
+            STATICTOP = STATIC_BASE + 71488;
             /* global initializers */
             __ATINIT__.push({
                 func: function () {
-                    __GLOBAL__I_000101()
-                }
-            }, {
-                func: function () {
-                    __GLOBAL__sub_I_main_cpp()
+                    __GLOBAL__sub_I_autotrace_cpp()
                 }
             }, {
                 func: function () {
@@ -1923,14 +1925,10 @@ var Module = (function () {
                 func: function () {
                     ___emscripten_environ_constructor()
                 }
-            }, {
-                func: function () {
-                    __GLOBAL__sub_I_iostream_cpp()
-                }
             });
 
 
-            var STATIC_BUMP = 70272;
+            var STATIC_BUMP = 71488;
             Module["STATIC_BASE"] = STATIC_BASE;
             Module["STATIC_BUMP"] = STATIC_BUMP;
 
@@ -2076,11 +2074,70 @@ var Module = (function () {
                 }
             };
 
+            function ___cxa_begin_catch(ptr) {
+                var info = EXCEPTIONS.infos[ptr];
+                if (info && !info.caught) {
+                    info.caught = true;
+                    __ZSt18uncaught_exceptionv.uncaught_exception--;
+                }
+                if (info) info.rethrown = false;
+                EXCEPTIONS.caught.push(ptr);
+                EXCEPTIONS.addRef(EXCEPTIONS.deAdjust(ptr));
+                return ptr;
+            }
+
+
+            function ___cxa_free_exception(ptr) {
+                try {
+                    return _free(ptr);
+                } catch (e) { // XXX FIXME
+                    err('exception during cxa_free_exception: ' + e);
+                }
+            }
+
+            function ___cxa_end_catch() {
+                // Clear state flag.
+                Module['setThrew'](0);
+                // Call destructor if one is registered then clear it.
+                var ptr = EXCEPTIONS.caught.pop();
+                if (ptr) {
+                    EXCEPTIONS.decRef(EXCEPTIONS.deAdjust(ptr));
+                    EXCEPTIONS.last = 0; // XXX in decRef?
+                }
+            }
+
+            function ___cxa_find_matching_catch_2() {
+                return ___cxa_find_matching_catch.apply(null, arguments);
+            }
+
+            function ___cxa_find_matching_catch_3() {
+                return ___cxa_find_matching_catch.apply(null, arguments);
+            }
+
+
+            function ___cxa_pure_virtual() {
+                ABORT = true;
+                throw 'Pure virtual function called!';
+            }
+
+            function ___cxa_rethrow() {
+                var ptr = EXCEPTIONS.caught.pop();
+                ptr = EXCEPTIONS.deAdjust(ptr);
+                if (!EXCEPTIONS.infos[ptr].rethrown) {
+                    // Only pop if the corresponding push was through rethrow_primary_exception
+                    EXCEPTIONS.caught.push(ptr)
+                    EXCEPTIONS.infos[ptr].rethrown = true;
+                }
+                EXCEPTIONS.last = ptr;
+                throw ptr;
+            }
+
+
             function ___resumeException(ptr) {
                 if (!EXCEPTIONS.last) {
                     EXCEPTIONS.last = ptr;
                 }
-                throw ptr + " - Exception catching is disabled, this exception cannot be caught. Compile with -s DISABLE_EXCEPTION_CATCHING=0 or DISABLE_EXCEPTION_CATCHING=2 to catch.";
+                throw ptr;
             }
 
             function ___cxa_find_matching_catch() {
@@ -2136,7 +2193,7 @@ var Module = (function () {
                 } else {
                     __ZSt18uncaught_exceptionv.uncaught_exception++;
                 }
-                throw ptr + " - Exception catching is disabled, this exception cannot be caught. Compile with -s DISABLE_EXCEPTION_CATCHING=0 or DISABLE_EXCEPTION_CATCHING=2 to catch.";
+                throw ptr;
             }
 
             function ___cxa_uncaught_exception() {
@@ -5964,39 +6021,18 @@ var Module = (function () {
             }
 
 
-            function getShiftFromSize(size) {
-                switch (size) {
-                    case 1:
-                        return 0;
-                    case 2:
-                        return 1;
-                    case 4:
-                        return 2;
-                    case 8:
-                        return 3;
-                    default:
-                        throw new TypeError('Unknown type size: ' + size);
+            var structRegistrations = {};
+
+            function runDestructors(destructors) {
+                while (destructors.length) {
+                    var ptr = destructors.pop();
+                    var del = destructors.pop();
+                    del(ptr);
                 }
             }
 
-
-            function embind_init_charCodes() {
-                var codes = new Array(256);
-                for (var i = 0; i < 256; ++i) {
-                    codes[i] = String.fromCharCode(i);
-                }
-                embind_charCodes = codes;
-            }
-
-            var embind_charCodes = undefined;
-
-            function readLatin1String(ptr) {
-                var ret = "";
-                var c = ptr;
-                while (HEAPU8[c]) {
-                    ret += embind_charCodes[HEAPU8[c++]];
-                }
-                return ret;
+            function simpleReadValueFromPointer(pointer) {
+                return this['fromWireType'](HEAPU32[pointer >> 2]);
             }
 
 
@@ -6060,13 +6096,6 @@ var Module = (function () {
                 return errorClass;
             }
 
-            var BindingError = undefined;
-
-            function throwBindingError(message) {
-                throw new BindingError(message);
-            }
-
-
             var InternalError = undefined;
 
             function throwInternalError(message) {
@@ -6111,6 +6140,118 @@ var Module = (function () {
                 if (0 === unregisteredTypes.length) {
                     onComplete(typeConverters);
                 }
+            }
+
+            function __embind_finalize_value_object(structType) {
+                var reg = structRegistrations[structType];
+                delete structRegistrations[structType];
+
+                var rawConstructor = reg.rawConstructor;
+                var rawDestructor = reg.rawDestructor;
+                var fieldRecords = reg.fields;
+                var fieldTypes = fieldRecords.map(function (field) {
+                    return field.getterReturnType;
+                }).concat(fieldRecords.map(function (field) {
+                    return field.setterArgumentType;
+                }));
+                whenDependentTypesAreResolved([structType], fieldTypes, function (fieldTypes) {
+                    var fields = {};
+                    fieldRecords.forEach(function (field, i) {
+                        var fieldName = field.fieldName;
+                        var getterReturnType = fieldTypes[i];
+                        var getter = field.getter;
+                        var getterContext = field.getterContext;
+                        var setterArgumentType = fieldTypes[i + fieldRecords.length];
+                        var setter = field.setter;
+                        var setterContext = field.setterContext;
+                        fields[fieldName] = {
+                            read: function (ptr) {
+                                return getterReturnType['fromWireType'](
+                                    getter(getterContext, ptr));
+                            },
+                            write: function (ptr, o) {
+                                var destructors = [];
+                                setter(setterContext, ptr, setterArgumentType['toWireType'](destructors, o));
+                                runDestructors(destructors);
+                            }
+                        };
+                    });
+
+                    return [{
+                        name: reg.name,
+                        'fromWireType': function (ptr) {
+                            var rv = {};
+                            for (var i in fields) {
+                                rv[i] = fields[i].read(ptr);
+                            }
+                            rawDestructor(ptr);
+                            return rv;
+                        },
+                        'toWireType': function (destructors, o) {
+                            // todo: Here we have an opportunity for -O3 level "unsafe" optimizations:
+                            // assume all fields are present without checking.
+                            for (var fieldName in fields) {
+                                if (!(fieldName in o)) {
+                                    throw new TypeError('Missing field');
+                                }
+                            }
+                            var ptr = rawConstructor();
+                            for (fieldName in fields) {
+                                fields[fieldName].write(ptr, o[fieldName]);
+                            }
+                            if (destructors !== null) {
+                                destructors.push(rawDestructor, ptr);
+                            }
+                            return ptr;
+                        },
+                        'argPackAdvance': 8,
+                        'readValueFromPointer': simpleReadValueFromPointer,
+                        destructorFunction: rawDestructor,
+                    }];
+                });
+            }
+
+
+            function getShiftFromSize(size) {
+                switch (size) {
+                    case 1:
+                        return 0;
+                    case 2:
+                        return 1;
+                    case 4:
+                        return 2;
+                    case 8:
+                        return 3;
+                    default:
+                        throw new TypeError('Unknown type size: ' + size);
+                }
+            }
+
+
+            function embind_init_charCodes() {
+                var codes = new Array(256);
+                for (var i = 0; i < 256; ++i) {
+                    codes[i] = String.fromCharCode(i);
+                }
+                embind_charCodes = codes;
+            }
+
+            var embind_charCodes = undefined;
+
+            function readLatin1String(ptr) {
+                var ret = "";
+                var c = ptr;
+                while (HEAPU8[c]) {
+                    ret += embind_charCodes[HEAPU8[c++]];
+                }
+                return ret;
+            }
+
+
+            var BindingError = undefined;
+
+            function throwBindingError(message) {
+                throw new BindingError(message);
             }
 
             function registerType(rawType, registeredInstance, options) {
@@ -6240,10 +6381,6 @@ var Module = (function () {
                 }
             }
 
-            function simpleReadValueFromPointer(pointer) {
-                return this['fromWireType'](HEAPU32[pointer >> 2]);
-            }
-
             function __embind_register_emval(rawType, name) {
                 name = readLatin1String(name);
                 registerType(rawType, {
@@ -6338,14 +6475,6 @@ var Module = (function () {
 
                 var r = constructor.apply(obj, argumentList);
                 return (r instanceof Object) ? r : obj;
-            }
-
-            function runDestructors(destructors) {
-                while (destructors.length) {
-                    var ptr = destructors.pop();
-                    var del = destructors.pop();
-                    del(ptr);
-                }
             }
 
             function craftInvokerFunction(humanName, argTypes, classType, cppInvokerFunc, cppTargetFunc) {
@@ -6885,6 +7014,45 @@ var Module = (function () {
                 });
             }
 
+            function __embind_register_value_object(
+                rawType,
+                name,
+                constructorSignature,
+                rawConstructor,
+                destructorSignature,
+                rawDestructor
+            ) {
+                structRegistrations[rawType] = {
+                    name: readLatin1String(name),
+                    rawConstructor: embind__requireFunction(constructorSignature, rawConstructor),
+                    rawDestructor: embind__requireFunction(destructorSignature, rawDestructor),
+                    fields: [],
+                };
+            }
+
+            function __embind_register_value_object_field(
+                structType,
+                fieldName,
+                getterReturnType,
+                getterSignature,
+                getter,
+                getterContext,
+                setterArgumentType,
+                setterSignature,
+                setter,
+                setterContext
+            ) {
+                structRegistrations[structType].fields.push({
+                    fieldName: readLatin1String(fieldName),
+                    getterReturnType: getterReturnType,
+                    getter: embind__requireFunction(getterSignature, getter),
+                    getterContext: getterContext,
+                    setterArgumentType: setterArgumentType,
+                    setter: embind__requireFunction(setterSignature, setter),
+                    setterContext: setterContext,
+                });
+            }
+
             function __embind_register_void(rawType, name) {
                 name = readLatin1String(name);
                 registerType(rawType, {
@@ -7107,6 +7275,10 @@ var Module = (function () {
                 return self.LLVM_SAVEDSTACKS.length - 1;
             }
 
+            function _llvm_trap() {
+                abort('trap!');
+            }
+
 
             function _emscripten_memcpy_big(dest, src, num) {
                 HEAPU8.set(HEAPU8.subarray(src, src + num), dest);
@@ -7115,6 +7287,43 @@ var Module = (function () {
 
 
             function _pthread_cond_wait() {
+                return 0;
+            }
+
+
+            var PTHREAD_SPECIFIC = {};
+
+            function _pthread_getspecific(key) {
+                return PTHREAD_SPECIFIC[key] || 0;
+            }
+
+
+            var PTHREAD_SPECIFIC_NEXT_KEY = 1;
+
+            function _pthread_key_create(key, destructor) {
+                if (key == 0) {
+                    return ERRNO_CODES.EINVAL;
+                }
+                HEAP32[((key) >> 2)] = PTHREAD_SPECIFIC_NEXT_KEY;
+                // values start at 0
+                PTHREAD_SPECIFIC[PTHREAD_SPECIFIC_NEXT_KEY] = 0;
+                PTHREAD_SPECIFIC_NEXT_KEY++;
+                return 0;
+            }
+
+
+            function _pthread_once(ptr, func) {
+                if (!_pthread_once.seen) _pthread_once.seen = {};
+                if (ptr in _pthread_once.seen) return;
+                Module['dynCall_v'](func);
+                _pthread_once.seen[ptr] = 1;
+            }
+
+            function _pthread_setspecific(key, value) {
+                if (!(key in PTHREAD_SPECIFIC)) {
+                    return ERRNO_CODES.EINVAL;
+                }
+                PTHREAD_SPECIFIC[key] = value;
                 return 0;
             }
 
@@ -7506,10 +7715,10 @@ var Module = (function () {
                 NODEFS.staticInit();
             }
             ;
+            InternalError = Module['InternalError'] = extendError(Error, 'InternalError');
+            ;
             embind_init_charCodes();
             BindingError = Module['BindingError'] = extendError(Error, 'BindingError');
-            ;
-            InternalError = Module['InternalError'] = extendError(Error, 'InternalError');
             ;
             init_emval();
             ;
@@ -7555,6 +7764,30 @@ var Module = (function () {
                 return ret.join('');
             }
 
+
+            function nullFunc_di(x) {
+                err("Invalid function pointer called with signature 'di'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
+            function nullFunc_diii(x) {
+                err("Invalid function pointer called with signature 'diii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
+            function nullFunc_fiii(x) {
+                err("Invalid function pointer called with signature 'fiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
+            function nullFunc_i(x) {
+                err("Invalid function pointer called with signature 'i'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
 
             function nullFunc_ii(x) {
                 err("Invalid function pointer called with signature 'ii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
@@ -7616,14 +7849,32 @@ var Module = (function () {
                 abort(x)
             }
 
+            function nullFunc_iiiiiiiiiii(x) {
+                err("Invalid function pointer called with signature 'iiiiiiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
             function nullFunc_iiiiiiiiiiii(x) {
                 err("Invalid function pointer called with signature 'iiiiiiiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
                 err("Build with ASSERTIONS=2 for more info.");
                 abort(x)
             }
 
+            function nullFunc_iiiiiiiiiiiii(x) {
+                err("Invalid function pointer called with signature 'iiiiiiiiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
             function nullFunc_iiiiij(x) {
                 err("Invalid function pointer called with signature 'iiiiij'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
+            function nullFunc_jiiii(x) {
+                err("Invalid function pointer called with signature 'jiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
                 err("Build with ASSERTIONS=2 for more info.");
                 abort(x)
             }
@@ -7676,15 +7927,77 @@ var Module = (function () {
                 abort(x)
             }
 
+            function nullFunc_viiiiiii(x) {
+                err("Invalid function pointer called with signature 'viiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
+            function nullFunc_viiiiiiiiii(x) {
+                err("Invalid function pointer called with signature 'viiiiiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
+            function nullFunc_viiiiiiiiiiiiiii(x) {
+                err("Invalid function pointer called with signature 'viiiiiiiiiiiiiii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
+                err("Build with ASSERTIONS=2 for more info.");
+                abort(x)
+            }
+
             function nullFunc_viijii(x) {
                 err("Invalid function pointer called with signature 'viijii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");
                 err("Build with ASSERTIONS=2 for more info.");
                 abort(x)
             }
 
-            Module['wasmTableSize'] = 8513;
+            Module['wasmTableSize'] = 25473;
 
-            Module['wasmMaxTableSize'] = 8513;
+            Module['wasmMaxTableSize'] = 25473;
+
+            function invoke_di(index, a1) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_di"](index, a1);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
+            function invoke_diii(index, a1, a2, a3) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_diii"](index, a1, a2, a3);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
+            function invoke_fiii(index, a1, a2, a3) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_fiii"](index, a1, a2, a3);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
+            function invoke_i(index) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_i"](index);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
 
             function invoke_ii(index, a1) {
                 var sp = stackSave();
@@ -7796,6 +8109,17 @@ var Module = (function () {
                 }
             }
 
+            function invoke_iiiiiiiiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_iiiiiiiiiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
             function invoke_iiiiiiiiiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11) {
                 var sp = stackSave();
                 try {
@@ -7807,10 +8131,32 @@ var Module = (function () {
                 }
             }
 
+            function invoke_iiiiiiiiiiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_iiiiiiiiiiiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
             function invoke_iiiiij(index, a1, a2, a3, a4, a5, a6) {
                 var sp = stackSave();
                 try {
                     return Module["dynCall_iiiiij"](index, a1, a2, a3, a4, a5, a6);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
+            function invoke_jiiii(index, a1, a2, a3, a4) {
+                var sp = stackSave();
+                try {
+                    return Module["dynCall_jiiii"](index, a1, a2, a3, a4);
                 } catch (e) {
                     stackRestore(sp);
                     if (typeof e !== 'number' && e !== 'longjmp') throw e;
@@ -7906,6 +8252,39 @@ var Module = (function () {
                 }
             }
 
+            function invoke_viiiiiii(index, a1, a2, a3, a4, a5, a6, a7) {
+                var sp = stackSave();
+                try {
+                    Module["dynCall_viiiiiii"](index, a1, a2, a3, a4, a5, a6, a7);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
+            function invoke_viiiiiiiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10) {
+                var sp = stackSave();
+                try {
+                    Module["dynCall_viiiiiiiiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
+            function invoke_viiiiiiiiiiiiiii(index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15) {
+                var sp = stackSave();
+                try {
+                    Module["dynCall_viiiiiiiiiiiiiii"](index, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15);
+                } catch (e) {
+                    stackRestore(sp);
+                    if (typeof e !== 'number' && e !== 'longjmp') throw e;
+                    Module["setThrew"](1, 0);
+                }
+            }
+
             function invoke_viijii(index, a1, a2, a3, a4, a5, a6) {
                 var sp = stackSave();
                 try {
@@ -7926,6 +8305,10 @@ var Module = (function () {
                 "getTotalMemory": getTotalMemory,
                 "abortOnCannotGrowMemory": abortOnCannotGrowMemory,
                 "abortStackOverflow": abortStackOverflow,
+                "nullFunc_di": nullFunc_di,
+                "nullFunc_diii": nullFunc_diii,
+                "nullFunc_fiii": nullFunc_fiii,
+                "nullFunc_i": nullFunc_i,
                 "nullFunc_ii": nullFunc_ii,
                 "nullFunc_iii": nullFunc_iii,
                 "nullFunc_iiii": nullFunc_iiii,
@@ -7936,8 +8319,11 @@ var Module = (function () {
                 "nullFunc_iiiiiii": nullFunc_iiiiiii,
                 "nullFunc_iiiiiiii": nullFunc_iiiiiiii,
                 "nullFunc_iiiiiiiii": nullFunc_iiiiiiiii,
+                "nullFunc_iiiiiiiiiii": nullFunc_iiiiiiiiiii,
                 "nullFunc_iiiiiiiiiiii": nullFunc_iiiiiiiiiiii,
+                "nullFunc_iiiiiiiiiiiii": nullFunc_iiiiiiiiiiiii,
                 "nullFunc_iiiiij": nullFunc_iiiiij,
+                "nullFunc_jiiii": nullFunc_jiiii,
                 "nullFunc_v": nullFunc_v,
                 "nullFunc_vfi": nullFunc_vfi,
                 "nullFunc_vi": nullFunc_vi,
@@ -7946,7 +8332,14 @@ var Module = (function () {
                 "nullFunc_viiii": nullFunc_viiii,
                 "nullFunc_viiiii": nullFunc_viiiii,
                 "nullFunc_viiiiii": nullFunc_viiiiii,
+                "nullFunc_viiiiiii": nullFunc_viiiiiii,
+                "nullFunc_viiiiiiiiii": nullFunc_viiiiiiiiii,
+                "nullFunc_viiiiiiiiiiiiiii": nullFunc_viiiiiiiiiiiiiii,
                 "nullFunc_viijii": nullFunc_viijii,
+                "invoke_di": invoke_di,
+                "invoke_diii": invoke_diii,
+                "invoke_fiii": invoke_fiii,
+                "invoke_i": invoke_i,
                 "invoke_ii": invoke_ii,
                 "invoke_iii": invoke_iii,
                 "invoke_iiii": invoke_iiii,
@@ -7957,8 +8350,11 @@ var Module = (function () {
                 "invoke_iiiiiii": invoke_iiiiiii,
                 "invoke_iiiiiiii": invoke_iiiiiiii,
                 "invoke_iiiiiiiii": invoke_iiiiiiiii,
+                "invoke_iiiiiiiiiii": invoke_iiiiiiiiiii,
                 "invoke_iiiiiiiiiiii": invoke_iiiiiiiiiiii,
+                "invoke_iiiiiiiiiiiii": invoke_iiiiiiiiiiiii,
                 "invoke_iiiiij": invoke_iiiiij,
+                "invoke_jiiii": invoke_jiiii,
                 "invoke_v": invoke_v,
                 "invoke_vfi": invoke_vfi,
                 "invoke_vi": invoke_vi,
@@ -7967,11 +8363,21 @@ var Module = (function () {
                 "invoke_viiii": invoke_viiii,
                 "invoke_viiiii": invoke_viiiii,
                 "invoke_viiiiii": invoke_viiiiii,
+                "invoke_viiiiiii": invoke_viiiiiii,
+                "invoke_viiiiiiiiii": invoke_viiiiiiiiii,
+                "invoke_viiiiiiiiiiiiiii": invoke_viiiiiiiiiiiiiii,
                 "invoke_viijii": invoke_viijii,
                 "___assert_fail": ___assert_fail,
                 "___buildEnvironment": ___buildEnvironment,
                 "___cxa_allocate_exception": ___cxa_allocate_exception,
+                "___cxa_begin_catch": ___cxa_begin_catch,
+                "___cxa_end_catch": ___cxa_end_catch,
                 "___cxa_find_matching_catch": ___cxa_find_matching_catch,
+                "___cxa_find_matching_catch_2": ___cxa_find_matching_catch_2,
+                "___cxa_find_matching_catch_3": ___cxa_find_matching_catch_3,
+                "___cxa_free_exception": ___cxa_free_exception,
+                "___cxa_pure_virtual": ___cxa_pure_virtual,
+                "___cxa_rethrow": ___cxa_rethrow,
                 "___cxa_throw": ___cxa_throw,
                 "___cxa_uncaught_exception": ___cxa_uncaught_exception,
                 "___gxx_personality_v0": ___gxx_personality_v0,
@@ -7990,6 +8396,7 @@ var Module = (function () {
                 "___unlock": ___unlock,
                 "__addDays": __addDays,
                 "__arraySum": __arraySum,
+                "__embind_finalize_value_object": __embind_finalize_value_object,
                 "__embind_register_bool": __embind_register_bool,
                 "__embind_register_emval": __embind_register_emval,
                 "__embind_register_float": __embind_register_float,
@@ -7998,6 +8405,8 @@ var Module = (function () {
                 "__embind_register_memory_view": __embind_register_memory_view,
                 "__embind_register_std_string": __embind_register_std_string,
                 "__embind_register_std_wstring": __embind_register_std_wstring,
+                "__embind_register_value_object": __embind_register_value_object,
+                "__embind_register_value_object_field": __embind_register_value_object_field,
                 "__embind_register_void": __embind_register_void,
                 "__emval_decref": __emval_decref,
                 "__emval_register": __emval_register,
@@ -8018,10 +8427,15 @@ var Module = (function () {
                 "_llvm_sqrt_f64": _llvm_sqrt_f64,
                 "_llvm_stackrestore": _llvm_stackrestore,
                 "_llvm_stacksave": _llvm_stacksave,
+                "_llvm_trap": _llvm_trap,
                 "_localtime_r": _localtime_r,
                 "_longjmp": _longjmp,
                 "_mktime": _mktime,
                 "_pthread_cond_wait": _pthread_cond_wait,
+                "_pthread_getspecific": _pthread_getspecific,
+                "_pthread_key_create": _pthread_key_create,
+                "_pthread_once": _pthread_once,
+                "_pthread_setspecific": _pthread_setspecific,
                 "_strftime": _strftime,
                 "_strftime_l": _strftime_l,
                 "_time": _time,
@@ -8062,11 +8476,11 @@ var Module = (function () {
             var asm = Module["asm"]// EMSCRIPTEN_END_ASM
             (Module.asmGlobalArg, Module.asmLibraryArg, buffer);
 
-            var real___GLOBAL__I_000101 = asm["__GLOBAL__I_000101"];
-            asm["__GLOBAL__I_000101"] = function () {
+            var real___GLOBAL__sub_I_autotrace_cpp = asm["__GLOBAL__sub_I_autotrace_cpp"];
+            asm["__GLOBAL__sub_I_autotrace_cpp"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return real___GLOBAL__I_000101.apply(null, arguments);
+                return real___GLOBAL__sub_I_autotrace_cpp.apply(null, arguments);
             };
 
             var real___GLOBAL__sub_I_bind_cpp = asm["__GLOBAL__sub_I_bind_cpp"];
@@ -8081,20 +8495,6 @@ var Module = (function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return real___GLOBAL__sub_I_input_cpp.apply(null, arguments);
-            };
-
-            var real___GLOBAL__sub_I_iostream_cpp = asm["__GLOBAL__sub_I_iostream_cpp"];
-            asm["__GLOBAL__sub_I_iostream_cpp"] = function () {
-                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return real___GLOBAL__sub_I_iostream_cpp.apply(null, arguments);
-            };
-
-            var real___GLOBAL__sub_I_main_cpp = asm["__GLOBAL__sub_I_main_cpp"];
-            asm["__GLOBAL__sub_I_main_cpp"] = function () {
-                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return real___GLOBAL__sub_I_main_cpp.apply(null, arguments);
             };
 
             var real___GLOBAL__sub_I_output_cpp = asm["__GLOBAL__sub_I_output_cpp"];
@@ -8200,13 +8600,6 @@ var Module = (function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return real__llvm_rint_f64.apply(null, arguments);
-            };
-
-            var real__main = asm["_main"];
-            asm["_main"] = function () {
-                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return real__main.apply(null, arguments);
             };
 
             var real__malloc = asm["_malloc"];
@@ -8328,10 +8721,10 @@ var Module = (function () {
                 return real_stackSave.apply(null, arguments);
             };
             Module["asm"] = asm;
-            var __GLOBAL__I_000101 = Module["__GLOBAL__I_000101"] = function () {
+            var __GLOBAL__sub_I_autotrace_cpp = Module["__GLOBAL__sub_I_autotrace_cpp"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return Module["asm"]["__GLOBAL__I_000101"].apply(null, arguments)
+                return Module["asm"]["__GLOBAL__sub_I_autotrace_cpp"].apply(null, arguments)
             };
             var __GLOBAL__sub_I_bind_cpp = Module["__GLOBAL__sub_I_bind_cpp"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
@@ -8342,16 +8735,6 @@ var Module = (function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["__GLOBAL__sub_I_input_cpp"].apply(null, arguments)
-            };
-            var __GLOBAL__sub_I_iostream_cpp = Module["__GLOBAL__sub_I_iostream_cpp"] = function () {
-                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return Module["asm"]["__GLOBAL__sub_I_iostream_cpp"].apply(null, arguments)
-            };
-            var __GLOBAL__sub_I_main_cpp = Module["__GLOBAL__sub_I_main_cpp"] = function () {
-                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return Module["asm"]["__GLOBAL__sub_I_main_cpp"].apply(null, arguments)
             };
             var __GLOBAL__sub_I_output_cpp = Module["__GLOBAL__sub_I_output_cpp"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
@@ -8432,11 +8815,6 @@ var Module = (function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["_llvm_rint_f64"].apply(null, arguments)
-            };
-            var _main = Module["_main"] = function () {
-                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
-                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
-                return Module["asm"]["_main"].apply(null, arguments)
             };
             var _malloc = Module["_malloc"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
@@ -8538,6 +8916,26 @@ var Module = (function () {
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["stackSave"].apply(null, arguments)
             };
+            var dynCall_di = Module["dynCall_di"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_di"].apply(null, arguments)
+            };
+            var dynCall_diii = Module["dynCall_diii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_diii"].apply(null, arguments)
+            };
+            var dynCall_fiii = Module["dynCall_fiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_fiii"].apply(null, arguments)
+            };
+            var dynCall_i = Module["dynCall_i"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_i"].apply(null, arguments)
+            };
             var dynCall_ii = Module["dynCall_ii"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
@@ -8588,15 +8986,30 @@ var Module = (function () {
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["dynCall_iiiiiiiii"].apply(null, arguments)
             };
+            var dynCall_iiiiiiiiiii = Module["dynCall_iiiiiiiiiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_iiiiiiiiiii"].apply(null, arguments)
+            };
             var dynCall_iiiiiiiiiiii = Module["dynCall_iiiiiiiiiiii"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["dynCall_iiiiiiiiiiii"].apply(null, arguments)
             };
+            var dynCall_iiiiiiiiiiiii = Module["dynCall_iiiiiiiiiiiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_iiiiiiiiiiiii"].apply(null, arguments)
+            };
             var dynCall_iiiiij = Module["dynCall_iiiiij"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["dynCall_iiiiij"].apply(null, arguments)
+            };
+            var dynCall_jiiii = Module["dynCall_jiiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_jiiii"].apply(null, arguments)
             };
             var dynCall_v = Module["dynCall_v"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
@@ -8637,6 +9050,21 @@ var Module = (function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
                 assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
                 return Module["asm"]["dynCall_viiiiii"].apply(null, arguments)
+            };
+            var dynCall_viiiiiii = Module["dynCall_viiiiiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_viiiiiii"].apply(null, arguments)
+            };
+            var dynCall_viiiiiiiiii = Module["dynCall_viiiiiiiiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_viiiiiiiiii"].apply(null, arguments)
+            };
+            var dynCall_viiiiiiiiiiiiiii = Module["dynCall_viiiiiiiiiiiiiii"] = function () {
+                assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
+                assert(!runtimeExited, 'the runtime was exited (use NO_EXIT_RUNTIME to keep it alive after main() exits)');
+                return Module["asm"]["dynCall_viiiiiiiiiiiiiii"].apply(null, arguments)
             };
             var dynCall_viijii = Module["dynCall_viijii"] = function () {
                 assert(runtimeInitialized, 'you need to wait for the runtime to be ready (e.g. wait for main() to be called)');
@@ -8901,53 +9329,6 @@ var Module = (function () {
                 if (!Module['calledRun']) dependenciesFulfilled = runCaller; // try this again later, after new deps are fulfilled
             }
 
-            Module['callMain'] = function callMain(args) {
-                assert(runDependencies == 0, 'cannot call main when async dependencies remain! (listen on __ATMAIN__)');
-                assert(__ATPRERUN__.length == 0, 'cannot call main when preRun functions remain to be called');
-
-                args = args || [];
-
-                ensureInitRuntime();
-
-                var argc = args.length + 1;
-                var argv = stackAlloc((argc + 1) * 4);
-                HEAP32[argv >> 2] = allocateUTF8OnStack(Module['thisProgram']);
-                for (var i = 1; i < argc; i++) {
-                    HEAP32[(argv >> 2) + i] = allocateUTF8OnStack(args[i - 1]);
-                }
-                HEAP32[(argv >> 2) + argc] = 0;
-
-
-                try {
-
-                    var ret = Module['_main'](argc, argv, 0);
-
-
-                    // if we're not running an evented main loop, it's time to exit
-                    exit(ret, /* implicit = */ true);
-                }
-                catch (e) {
-                    if (e instanceof ExitStatus) {
-                        // exit() throws this once it's done to make sure execution
-                        // has been stopped completely
-                        return;
-                    } else if (e == 'SimulateInfiniteLoop') {
-                        // running an evented main loop, don't immediately exit
-                        Module['noExitRuntime'] = true;
-                        return;
-                    } else {
-                        var toLog = e;
-                        if (e && typeof e === 'object' && e.stack) {
-                            toLog = [e, e.stack];
-                        }
-                        err('exception thrown: ' + toLog);
-                        Module['quit'](1, e);
-                    }
-                } finally {
-                    calledMain = true;
-                }
-            }
-
 
             /** @type {function(Array=)} */
             function run(args) {
@@ -8976,7 +9357,7 @@ var Module = (function () {
 
                     if (Module['onRuntimeInitialized']) Module['onRuntimeInitialized']();
 
-                    if (Module['_main'] && shouldRunNow) Module['callMain'](args);
+                    assert(!Module['_main'], 'compiled without a main, but one is present. if you added it from JS, use Module["onRuntimeInitialized"]');
 
                     postRun();
                 }
@@ -9110,11 +9491,6 @@ var Module = (function () {
                 }
             }
 
-// shouldRunNow refers to calling main(), not run().
-            var shouldRunNow = true;
-            if (Module['noInitialRun']) {
-                shouldRunNow = false;
-            }
 
             Module["noExitRuntime"] = true;
 
