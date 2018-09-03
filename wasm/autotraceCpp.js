@@ -1603,6 +1603,10 @@ var Module = (function () {
             var memoryInitializer = null;
 
 
+
+
+
+
 // Prefix of data URIs emitted by SINGLE_FILE and related options.
             var dataURIPrefix = 'data:application/octet-stream;base64,';
 
@@ -1903,7 +1907,7 @@ var Module = (function () {
 
             STATIC_BASE = GLOBAL_BASE;
 
-            STATICTOP = STATIC_BASE + 71488;
+            STATICTOP = STATIC_BASE + 71504;
             /* global initializers */
             __ATINIT__.push({
                 func: function () {
@@ -1928,7 +1932,7 @@ var Module = (function () {
             });
 
 
-            var STATIC_BUMP = 71488;
+            var STATIC_BUMP = 71504;
             Module["STATIC_BASE"] = STATIC_BASE;
             Module["STATIC_BUMP"] = STATIC_BUMP;
 
@@ -9074,6 +9078,7 @@ var Module = (function () {
             ;
 
 
+
 // === Auto-generated postamble setup entry stuff ===
 
             Module['asm'] = asm;
@@ -9282,6 +9287,7 @@ var Module = (function () {
                     abort("'ALLOC_NONE' was not exported. add it to EXTRA_EXPORTED_RUNTIME_METHODS (see the FAQ)")
                 }
             });
+
 
 
 // Modularize mode returns a function, which can be called to

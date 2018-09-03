@@ -138,18 +138,6 @@ class WasmButton extends React.Component {
                                     if (outputFileResult.success) {
                                         const enc = new TextDecoder("utf-8");
                                         let stringOutput = enc.decode(outputFileHeap);
-
-                                        // Add a view box in there
-                                        const widthRegex = 'width=\"([0-9]*)\"';
-                                        const widthFound = stringOutput.match(widthRegex);
-
-                                        const heightRegex = 'height=\"([0-9]*)\"';
-                                        const heightFound = stringOutput.match(heightRegex);
-
-                                        if (widthFound.length > 0 && heightFound.length > 0) {
-                                            stringOutput = stringOutput.replace(new RegExp("<svg"), "<svg viewBox=\"0 0 " + widthFound[1] + " " + heightFound[1] + "\"");
-                                        }
-
                                         this.setState({outputFile: stringOutput});
 
                                     } else {
