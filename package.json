@@ -20,6 +20,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "flow-bin": "^0.80.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.16.5",
@@ -29,6 +30,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --open --mode development --progress",
-    "build": "webpack"
+    "build": "webpack",
+    "flow": "flow"
   }
 }
