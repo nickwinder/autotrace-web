@@ -5,7 +5,7 @@ import './App.css';
 import {SliderInternal} from './Slider.js';
 import {ASwitch} from "./Switch.js";
 import {ImageUpload} from './ImageFile.js';
-import WasmLoader from './WasmLoader.js'
+import {AutotraceNative} from './AutotraceNative.js'
 
 class App extends Component {
     render() {
@@ -91,76 +91,22 @@ class WasmButton extends React.Component {
     }
 
     async handleClick() {
-        try {
-            let imageInputPromise = fetch("public/test.png").then(d =>
-                d.arrayBuffer(),
-            );
+        let imageInputPromise = fetch("public/test.png").then(d =>
+            d.arrayBuffer(),
+        );
 
-            let wasmLoader = new WasmLoader();
-            wasmLoader.loadNativeModule()
-                .then(async ({nativeModule}) => {
-                    const byteArray = new Uint8Array(await imageInputPromise);
-
-                    // Allocate on Emscripten heap
-                    const dataPtr = nativeModule._malloc(byteArray.byteLength);
-
-                    // Copy data to Emscripten heap (directly accessed from Module.HEAPU8)
-                    const dataHeap = new Uint8Array(nativeModule.HEAPU8.buffer, dataPtr, byteArray.byteLength);
-                    dataHeap.set(byteArray);
-
-                    try {
-                        let result = nativeModule.autotraceRun(
-                            dataHeap.byteOffset,
-                            dataHeap.byteLength,
-                            JSON.stringify({}),
-                            JSON.stringify({}),
-                            JSON.stringify({})
-                        );
-                        if (result.success === true) {
-                            console.log("File Converted");
-
-                            let fileSizeOutput = nativeModule.outputFileSize();
-                            if (fileSizeOutput.success) {
-                                console.log("File Size : " + fileSizeOutput.value);
-
-                                // Now I can make a new buffer!
-                                const byteArrayOutput = new Uint8Array(fileSizeOutput.value);
-
-                                // Allocate on Emscripten heap
-                                const dataPtrOutput = nativeModule._malloc(byteArrayOutput.byteLength);
-
-                                // Copy data to Emscripten heap (directly accessed from Module.HEAPU8)
-                                const outputFileHeap = new Uint8Array(nativeModule.HEAPU8.buffer, dataPtrOutput, byteArrayOutput.byteLength);
-                                outputFileHeap.set(byteArrayOutput);
-
-                                try {
-                                    let outputFileResult = nativeModule.getOutputFile(outputFileHeap.byteOffset, outputFileHeap.byteOffset);
-                                    if (outputFileResult.success) {
-                                        const enc = new TextDecoder("utf-8");
-                                        let stringOutput = enc.decode(outputFileHeap);
-                                        this.setState({outputFile: stringOutput});
-
-                                    } else {
-                                        console.log("output file get error = " + outputFileResult.error);
-                                    }
-                                } finally {
-                                    nativeModule._free(outputFileHeap.byteOffset)
-                                }
-
-                            } else {
-                                console.log("file Size error = " + fileSizeOutput.error);
-                            }
-                        } else {
-                            console.log("Run Error = " + result.error);
-                        }
-                    } finally {
-                        nativeModule._free(dataHeap.byteOffset)
-                    }
-                });
+        let autotraceNative = new AutotraceNative();
+        await autotraceNative.loadModule();
+        if (await autotraceNative.convertImage(imageInputPromise)) {
+            autotraceNative.retrieveConversion()
+                .then(
+                    resolve => this.setState({outputFile: resolve}),
+                    reason => console.error(reason)
+                );
+        } else {
+            console.error("Conversion Error!")
         }
-        catch (e) {
-            console.error(e.message);
-        }
+
     }
 
     render() {
