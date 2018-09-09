@@ -1,5 +1,4 @@
-import {Component} from "react";
-import React from "react";
+import React, {Component} from "react";
 import Tooltip from "rc-tooltip";
 import Slider from "rc-slider";
 
@@ -25,7 +24,13 @@ export class SliderInternal extends Component {
     render() {
         return (
             <label htmlFor="normal-switch">
-                <Slider min={0} max={20} defaultValue={3} handle={handle}/>
+                <Slider
+                    min={this.props.min}
+                    max={this.props.max}
+                    defaultValue={this.props.defaultValue}
+                    step={this.props.step}
+                    handle={handle}
+                    onAfterChange={this.props.onAfterChange}/>
             </label>
         );
     }

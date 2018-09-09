@@ -1,8 +1,7 @@
-import {Component} from "react";
+import React, {Component} from "react";
 import Switch from "react-switch";
-import React from "react";
 
-export class ASwitch extends Component {
+export class SwitchInternal extends Component {
     constructor() {
         super();
         this.state = {checked: false};
@@ -11,6 +10,7 @@ export class ASwitch extends Component {
 
     handleChange(checked) {
         this.setState({checked});
+        this.props.onChange()
     }
 
     render() {

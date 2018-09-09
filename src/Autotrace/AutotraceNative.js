@@ -1,15 +1,17 @@
-import WasmLoader from "./WasmLoader";
+import loadNativeModule from "../WasmLoader";
+import type {FittingOptions} from "./FittingOptions";
 
 export class AutotraceNative {
     constructor() {
         this.nativeModule = null;
+        this.fittingOptions = {};
     }
 
     loadModule(): Promise {
-        let wasmLoader = new WasmLoader();
+        if (this.nativeModule != null) return Promise.resolve(true);
 
         return new Promise(resolve => {
-            wasmLoader.loadNativeModule()
+            loadNativeModule()
                 .then(({nativeModule}) => {
                     this.nativeModule = nativeModule;
                     resolve();
@@ -17,7 +19,13 @@ export class AutotraceNative {
         });
     }
 
+    setFittingOptionsProperty(fittingOptions: FittingOptions) {
+        this.fittingOptions = {...this.fittingOptions, ...fittingOptions};
+    }
+
     async convertImage(imageInputPromise: Promise<ArrayBuffer>): boolean {
+        await this.loadModule();
+
         const byteArray = new Uint8Array(await imageInputPromise);
         const dataPtr = this.nativeModule._malloc(byteArray.byteLength);
         const dataHeap = new Uint8Array(this.nativeModule.HEAPU8.buffer, dataPtr, byteArray.byteLength);
@@ -27,7 +35,7 @@ export class AutotraceNative {
             let result = this.nativeModule.autotraceRun(
                 dataHeap.byteOffset,
                 dataHeap.byteLength,
-                JSON.stringify({}),
+                JSON.stringify(this.fittingOptions),
                 JSON.stringify({}),
                 JSON.stringify({})
             );
@@ -68,3 +76,5 @@ export class AutotraceNative {
         }))
     }
 }
+
+export let autotraceNative = new AutotraceNative();

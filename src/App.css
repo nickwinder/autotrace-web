@@ -34,13 +34,13 @@
     vertical-align: top;
     margin-top: 15px;
     margin-left: 15px;
-    margin-right: 310px;
+    margin-right: 510px;
 }
 
 .right-div {
     float: right;
     display: inline-block;
-    width: 200px;
+    width: 400px;
     text-align: left;
     padding: 30px;
     background-color: #ddd;
