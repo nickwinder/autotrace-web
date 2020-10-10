@@ -34,7 +34,7 @@ module.exports = {
             filename: "./index.html"
         }),
         new CopyWebpackPlugin([
-            {from: './wasm/autotraceCpp.wasm', to: './lib/autotraceCpp.wasm'},
+            {from: './wasm/autotraceCpp.wasm', to: './wasm/autotraceCpp.wasm'},
         ])
     ],
     // Needed for wasm.js file.

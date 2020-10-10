@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "copy-webpack-plugin": "^5.0.2",
+    "rc-slider": "^8.6.1",
+    "rc-tooltip": "^3.7.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-image-file": "^0.3.0",
     "react-scripts": "1.1.4",
-    "react-switch": "^3.0.4",
-    "rc-slider": "^8.6.1",
-    "rc-tooltip": "^3.7.2",
-    "copy-webpack-plugin": "^4.5.2"
+    "react-switch": "^3.0.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -22,10 +22,10 @@
     "babel-preset-stage-0": "^6.24.1",
     "flow-bin": "^0.80.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "~3.1.5",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
     "worker-loader": "^2.0.0"
   },
   "scripts": {
