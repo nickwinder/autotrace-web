@@ -40,8 +40,12 @@ export class AutotraceNative {
                 JSON.stringify({})
             );
 
+            if (!result.success)
+                console.error(result.error)
+
             return result.success
-        } catch (e) {
+        } catch (error) {
+            console.error(error)
             return false;
         } finally {
             this.nativeModule._free(dataHeap.byteOffset)

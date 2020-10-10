@@ -1,21 +1,21 @@
+function loadWASMJS(url) {
+    return new Promise((resolve, reject) => {
+        let script = document.createElement('script')
+        script.type = 'text/javascript'
+        script.async = true
+        script.onload = () => resolve(window.createAutotrace)
+        script.onerror = reject
+        script.src = url
+
+        const { documentElement } = document
+        documentElement.appendChild(script)
+    })
+}
+
 export default function loadNativeModule() {
-    return new Promise(resolve => {
-        let module = {
-            // Wasm file is copied to ./lib/ when deployed.
-            locateFile: function (path, prefix) {
-                return "./lib/" + prefix + path;
-            },
-            // Prevent main from being called when wasm is loaded.
-            noInitialRun: true,
-        };
-
-        const autotrace = require('../wasm/autotraceCpp.js');
-
-        const nativeModule = autotrace({
-            ...module,
-            onRuntimeInitialized: () => {
-                resolve({nativeModule})
-            },
-        });
+    return new Promise( async resolve => {
+        const autotrace = await loadWASMJS('../wasm/autotraceCpp.js');
+        const nativeModule = await autotrace(module)
+        resolve({nativeModule})
     });
 }
