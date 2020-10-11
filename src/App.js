@@ -10,7 +10,7 @@ import type {FittingOptions} from "./Autotrace/FittingOptions";
 class App extends Component {
     constructor() {
         super();
-        this.state = {outputFile: <div id='hello'/>};
+        this.state = {outputFile: <div id='hello'/>, isConversionRunning: false};
 
         this.setFittingProperty = this.setFittingProperty.bind(this);
     }
@@ -20,7 +20,12 @@ class App extends Component {
         await this.convertImage();
     }
 
+
+
     async convertImage() {
+        this.setState({
+            isConversionRunning: true
+        });
 
         let imageInputPromise = fetch("public/test.png").then(d =>
             d.arrayBuffer(),
@@ -35,6 +40,9 @@ class App extends Component {
         } else {
             console.error("Conversion Error!");
         }
+        this.setState({
+            isConversionRunning: false
+        });
     }
 
     render() {
@@ -172,7 +180,8 @@ class App extends Component {
                     </div>
 
                     <div className="left-div">
-                        <div dangerouslySetInnerHTML={{__html: this.state.outputFile}}/>
+                        {this.state.isConversionRunning && (<div><p>Loading</p></div>)}
+                        {!this.state.isConversionRunning && (<div dangerouslySetInnerHTML={{__html: this.state.outputFile}}/>)}
                     </div>
 
                 </div>
