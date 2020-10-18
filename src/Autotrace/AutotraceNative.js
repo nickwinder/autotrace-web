@@ -23,10 +23,10 @@ export class AutotraceNative {
         this.fittingOptions = {...this.fittingOptions, ...fittingOptions};
     }
 
-    async convertImage(imageInputPromise: Promise<ArrayBuffer>): boolean {
+    async convertImage(imageImage: ArrayBuffer): boolean {
         await this.loadModule();
 
-        const byteArray = new Uint8Array(await imageInputPromise);
+        const byteArray = new Uint8Array(imageImage);
         const dataPtr = this.nativeModule._malloc(byteArray.byteLength);
         const dataHeap = new Uint8Array(this.nativeModule.HEAPU8.buffer, dataPtr, byteArray.byteLength);
         dataHeap.set(byteArray);

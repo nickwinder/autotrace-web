@@ -10,7 +10,7 @@ import type {FittingOptions} from "./Autotrace/FittingOptions";
 class App extends Component {
     constructor() {
         super();
-        this.state = {outputFile: <div id='hello'/>, isConversionRunning: false};
+        this.state = {outputFile: null, isConversionRunning: false, isImageConverted: false ,selectedFile: null};
 
         this.setFittingProperty = this.setFittingProperty.bind(this);
     }
@@ -20,18 +20,23 @@ class App extends Component {
         await this.convertImage();
     }
 
-
+    async loadImageFile(file) {
+        return new Promise(resolve => {
+            const reader = new FileReader();
+            reader.readAsArrayBuffer(file);
+            reader.onload = () => {
+                resolve(reader.result);
+            }
+        });
+    }
 
     async convertImage() {
         this.setState({
-            isConversionRunning: true
+            isConversionRunning: true,
+            isImageConverted: false
         });
 
-        let imageInputPromise = fetch("public/test.png").then(d =>
-            d.arrayBuffer(),
-        );
-
-        if (await autotraceNative.convertImage(imageInputPromise)) {
+        if (await autotraceNative.convertImage(await this.loadImageFile(this.state.selectedFile))) {
             autotraceNative.retrieveConversion()
                 .then(
                     resolve => this.setState({outputFile: resolve}),
@@ -41,8 +46,26 @@ class App extends Component {
             console.error("Conversion Error!");
         }
         this.setState({
-            isConversionRunning: false
+            isConversionRunning: false,
+            isImageConverted: true
         });
+    }
+
+    onChangeHandler(event){
+        console.log(event.target.files[0])
+        this.setState({
+            selectedFile: event.target.files[0]
+        });
+    }
+
+    renderImageState() {
+        if(this.state.selectedFile == null) {
+            return <div><p>Select File</p></div>;
+        } else if(!this.state.isImageConverted) {
+            return <div><p>Ready To Convert</p></div>;
+        } else if(this.state.isConversionRunning) {
+            return <div><p>Converting</p></div>;
+        }
     }
 
     render() {
@@ -180,8 +203,9 @@ class App extends Component {
                     </div>
 
                     <div className="left-div">
-                        {this.state.isConversionRunning && (<div><p>Loading</p></div>)}
+                        {this.renderImageState()}
                         {!this.state.isConversionRunning && (<div dangerouslySetInnerHTML={{__html: this.state.outputFile}}/>)}
+                        <input type="file" onChange={(event) => this.onChangeHandler(event)}/>
                     </div>
 
                 </div>
